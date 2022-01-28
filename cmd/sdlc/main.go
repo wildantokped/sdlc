@@ -51,8 +51,10 @@ func run() error {
 }
 
 func main() {
+	start := time.Now()
 	err := run()
 	if err != nil {
 		log.Fatalln(err)
 	}
+	log.Printf("generated in %s", time.Since(start))
 }
