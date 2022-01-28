@@ -12,13 +12,13 @@ Roadmap:
 ### Installation
 
 ```
-go get github.com/wildantokped/sdlc/cmd
+go get github.com/wildantokped/sdlc/cmd/sdlc
 ```
 
 or Go 1.17+
 
 ```
-go install github.com/wildantokped/sdlc/cmd
+go install github.com/wildantokped/sdlc/cmd/sdlc
 ```
 
 ### Usage
